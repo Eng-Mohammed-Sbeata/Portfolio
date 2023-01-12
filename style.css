@@ -263,6 +263,56 @@ button:hover {
     padding-left: 70px;
 }
 
+.projects {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+
+.projects img {
+    height: auto;
+    width: 430px;
+}
+
+.projects-text {
+    width: 550px;
+}
+
+.main3 {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.projects-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+
+.projects-text ul li a {
+    color: rgb(84, 190, 240);
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 45px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    padding-left: 70px;
+}
+
+.projects-text ul li a:hover {
+    color: #f9004d;
+    transition: .45;
+}
+
 footer {
     position: relative;
     width: 100%;
